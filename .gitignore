@@ -27,6 +27,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+**/__pycache__/
+
+#Project env files
+.env
+
 # Custom project dirs
 /ingest/scripts/output/
 /shared/

@@ -1,0 +1,12 @@
+[project]
+name = "ask-api"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.19.1",
+    "fastapi[standard]>=0.141.1",
+    "psycopg2>=2.9.12",
+    "python-dotenv>=1.2.3",
+    "sqlacodegen>=4.0.4",
+    "sqlmodel>=0.0.42",
+]
